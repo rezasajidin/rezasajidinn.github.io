@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "serif", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+   }
+   .hero{
+    width: 100%; height: 130px;
+    background: black;
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+    z-index: 3;
+   }
+   .main-width{
+    width: 1280px;
+    max-width: 95%;
+    margin: auto;
+    padding: 0px 20px;
+   }
+   .form{
+    justify-content: center;
+   }
+   .login{
+    height: 400px;
+    width: 350px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+   }
+   .login .input{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+   }
+   .login .input input{
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: 3px solid rgb(0, 42, 255);
+    border-radius: 10px;
+   }
+    .login .input span{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    padding: 0;
+    text-transform: capitalize;
+    background-color: white;
+    transition: 0.5s;
+    }
+    .login .input input:focus ~ span,
+    .login .input input:focus ~ span{
+    top: -20px;
+    left: 20px;
+    font-size: 12px;
+    background-color: transparent;
+    padding: 2px 4px;
+    }
+    .login .input input[type="submit"]{
+    background-color: rgb(12, 12, 210);
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: .5s;
+    }
+    .login .input input[type="submit"]:hover{
+    background-color: rgba(9, 161, 255, 0.723);
+    color: #ffffff;
+    }
+    .form-login{
+    background-color: rgb(12, 12, 210);
+    width: 100%;
+    padding: 140px 0 50px;
+    background-image: url("AA.jpg");
+    }
+    .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    }
+    .login h2{
+    text-align: center;
+    margin: 20px 0 40px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    }
+    footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    footer p{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    }
